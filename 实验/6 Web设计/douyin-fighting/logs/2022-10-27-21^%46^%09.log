@@ -1,0 +1,3 @@
+
+2022/10/27 21:46:10 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:41
+[error] failed to initialize database, got error Error 1045: Access denied for user 'root'@'localhost' (using password: YES)

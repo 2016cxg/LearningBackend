@@ -1,0 +1,2534 @@
+Global
+Viper
+
+2022/10/29 16:58:36 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.715ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[2.360ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:54
+[0.791ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'douyin' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.169ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.627ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:148
+[0.414ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:166
+[2.433ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'douyin' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.168ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[1.183ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:55
+[0.411ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'douyin' AND table_name = 'videos' AND table_type = 'BASE TABLE'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.122ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.482ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:148
+[0.631ms] [rows:-] SELECT * FROM `videos` LIMIT 1
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:166
+[1.265ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'douyin' AND table_name = 'videos' ORDER BY ORDINAL_POSITION
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.190ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.801ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:55
+[1.175ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'videos' AND index_name = 'idx_videos_author_id'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.200ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.750ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:55
+[0.427ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'videos' AND index_name = 'idx_videos_created_at'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.170ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[1.363ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:56
+[0.447ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'douyin' AND table_name = 'favorites' AND table_type = 'BASE TABLE'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.150ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.616ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:148
+[0.200ms] [rows:-] SELECT * FROM `favorites` LIMIT 1
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:166
+[0.576ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'douyin' AND table_name = 'favorites' ORDER BY ORDINAL_POSITION
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.156ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.492ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:56
+[0.629ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'favorites' AND index_name = 'idx_01'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.164ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.400ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:56
+[0.520ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'favorites' AND index_name = 'idx_02'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.130ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[5.264ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:57
+[0.562ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'douyin' AND table_name = 'comments' AND table_type = 'BASE TABLE'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.141ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.748ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:148
+[0.532ms] [rows:-] SELECT * FROM `comments` LIMIT 1
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:166
+[0.545ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'douyin' AND table_name = 'comments' ORDER BY ORDINAL_POSITION
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.242ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[1.421ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:57
+[0.545ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'comments' AND index_name = 'video_user'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.199ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.530ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:58
+[0.711ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'douyin' AND table_name = 'follows' AND table_type = 'BASE TABLE'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.122ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.426ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:148
+[0.231ms] [rows:-] SELECT * FROM `follows` LIMIT 1
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:166
+[0.825ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'douyin' AND table_name = 'follows' ORDER BY ORDINAL_POSITION
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[7.525ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.637ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:58
+[0.184ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'follows' AND index_name = 'idx_01'
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.055ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 16:58:37 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.545ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 16:58:37 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:58
+[0.160ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'follows' AND index_name = 'idx_02'
+MySQL
+Redis
+1111111111111111111
+1111111111111111111
+0.0.0.0:8080Feed ================
+GetFeed 1
+GetFeed 2
+GetFeed 3
+[23477756444560769 23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474693730225537 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+GetFeed 4
+GetFeed 5
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:104
+[1.174ms] [rows:0] SELECT * FROM `users` WHERE user_id in (0,0,0,0,0,0)
+numVideos:  6
+log: 
+logged
+[GIN] 2022/10/29 - 16:58:43 | 200 |    3.858126ms |    192.168.77.1 | GET      "/douyin/feed/?latest_time=1667087923919&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDA2NywibmJmIjoxNjY3MDg3NjY3LCJpYXQiOjE2NjcwODc2Njd9.y7b3W4CyVCeG2WKxndm2ENzt3J5saxPcEKZsRssbXRE"
+Video:23473691677445505 : in redis
+Video:23474442524970369 : in redis
+Video:23474522149637505 : in redis
+Video:23476001883311489 : in redis
+Video:23477756444560769 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.485ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cc380 0}
+follower_id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.627ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.292ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.222ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474693730225537 : in redis
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[1.110ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+Video:23474522149637505 : in redis
+GetVideoIDListByUserID
+Video:23474442524970369 : in redis
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.644ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003ccc40 0}
+follower_id
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 1 8 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 11 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+User db using user id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.760ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.323ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.311ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.359ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.297ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000096540 0}
+follower_id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.626ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[5.185ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000961c0 0}
+follower_id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.993ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.418ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.606ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[1.121ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.528ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.843ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.226ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cd6c0 0}
+follower_id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.280ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.389ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.248ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+[GIN] 2022/10/29 - 16:58:43 | 500 |   12.098349ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDA2NywibmJmIjoxNjY3MDg3NjY3LCJpYXQiOjE2NjcwODc2Njd9.y7b3W4CyVCeG2WKxndm2ENzt3J5saxPcEKZsRssbXRE&user_id=0"
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.459ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.503ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.582ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000976c0 0}
+follower_id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.754ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[3.312ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[1.001ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:43 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.813ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:58:43 | 500 |   28.669067ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDA2NywibmJmIjoxNjY3MDg3NjY3LCJpYXQiOjE2NjcwODc2Njd9.y7b3W4CyVCeG2WKxndm2ENzt3J5saxPcEKZsRssbXRE&user_id=0"
+[GIN] 2022/10/29 - 16:58:43 | 200 |   17.177652ms |    192.168.77.1 | GET      "/static/video/23477756444560769"
+GetVideoListByIDsRedis: later
+[GIN] 2022/10/29 - 16:58:45 | 200 |     677.529µs |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDA2NywibmJmIjoxNjY3MDg3NjY3LCJpYXQiOjE2NjcwODc2Njd9.y7b3W4CyVCeG2WKxndm2ENzt3J5saxPcEKZsRssbXRE&user_id=23473621196361089"
+User id:  23473621196361089
+[GIN] 2022/10/29 - 16:58:45 | 200 |     683.243µs |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDA2NywibmJmIjoxNjY3MDg3NjY3LCJpYXQiOjE2NjcwODc2Njd9.y7b3W4CyVCeG2WKxndm2ENzt3J5saxPcEKZsRssbXRE&user_id=23473621196361089"
+Feed ================
+GetFeed 1
+GetFeed 2
+GetFeed 3
+[23477756444560769 23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474693730225537 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+GetFeed 4
+GetFeed 5
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:104
+[0.339ms] [rows:0] SELECT * FROM `users` WHERE user_id in (0,0,0,0,0,0)
+numVideos:  6
+log: 
+logged
+[GIN] 2022/10/29 - 16:58:48 | 200 |    1.421963ms |    192.168.77.1 | GET      "/douyin/feed/?latest_time=1667087928731"
+Video:23473691677445505 : in redis
+Video:23477756444560769 : in redis
+Video:23474442524970369 : in redis
+Video:23476001883311489 : in redis
+Video:23474522149637505 : in redis
+Video:23474693730225537 : in redis
+Video:23476001883311489 : in redis
+Video:23474522149637505 : in redis
+Video:23477756444560769 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+Video:23474442524970369 : in redis
+User db using user id
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 1 8 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 11 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+User db using user id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.297ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0001f6380 0}
+follower_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.719ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[2.170ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0001f61c0 0}
+follower_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.380ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.305ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.544ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.738ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+Video:23473691677445505 : in redis
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.354ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+Video:23477756444560769 : in redis
+GetVideoIDListByUserID
+Video:23474442524970369 : in redis
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[1.043ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+Video:23476001883311489 : in redis
+Video:23474522149637505 : in redis
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:58:48 | 500 |    7.278712ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=&user_id=0"
+Video:23474693730225537 : in redis
+Video:23476001883311489 : in redis
+Video:23474522149637505 : in redis
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[1.026ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+Video:23477756444560769 : in redis
+Video:23474442524970369 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.874ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0001f68c0 0}
+follower_id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+Video:23473691677445505 : in redis
+User db using user id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.468ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+GetVideoListByIDsRedis: later
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 1 8 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 11 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.565ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0001f6a80 0}
+follower_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.447ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+User db using user id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.442ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.888ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.196ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.255ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[2.785ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+GetVideoIDListByUserID
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.346ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.626ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0001f6380 0}
+follower_id
+User db using user id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.380ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0001f6700 0}
+follower_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.599ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.245ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[5.382ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000580a80 0}
+follower_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.840ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.830ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.349ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.685ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.617ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.293ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0001f7340 0}
+follower_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.200ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.209ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.187ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[5.861ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[3.818ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.508ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:58:48 | 500 |   19.283327ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=&user_id=0"
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[2.966ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[3.530ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.684ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+User db using user id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.113ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0001f7c00 0}
+follower_id
+[GIN] 2022/10/29 - 16:58:48 | 200 |    1.988565ms |    192.168.77.1 | GET      "/static/video/23477756444560769"
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[7.801ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000581340 0}
+follower_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[8.227ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[1.810ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.996ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.867ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.293ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.410ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.376ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000096380 0}
+follower_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.682ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.423ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.207ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.925ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:58:48 | 200 |   38.597158ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=&user_id=0"
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[6.019ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.660ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.643ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cc1c0 0}
+follower_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.587ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.331ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.223ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:58:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.630ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:58:48 | 200 |   53.120654ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=&user_id=0"
+
+2022/10/29 16:58:54 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:29
+[0.337ms] [rows:1] SELECT * FROM `users` WHERE name = '1' LIMIT 1
+[GIN] 2022/10/29 - 16:58:54 | 200 |   57.022917ms |    192.168.77.1 | POST     "/douyin/user/login/?username=1&password=111111"
+User id:  23473621196361089
+[GIN] 2022/10/29 - 16:58:54 | 200 |     423.611µs |    192.168.77.1 | GET      "/douyin/user/?user_id=23473621196361089&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY"
+User id:  23473621196361089
+GetVideoListByIDsRedis: later
+[GIN] 2022/10/29 - 16:58:54 | 200 |     610.177µs |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&user_id=23473621196361089"
+[GIN] 2022/10/29 - 16:58:54 | 200 |     626.816µs |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&user_id=23473621196361089"
+[GIN] 2022/10/29 - 16:58:54 | 200 |    3.718518ms |    192.168.77.1 | GET      "/static/video/23477756444560769"
+
+2022/10/29 16:58:57 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:104
+[0.470ms] [rows:0] SELECT * FROM `users` WHERE user_id in (0,0,0,0,0,0,0,0)
+[GIN] 2022/10/29 - 16:58:57 | 200 |    6.912789ms |    192.168.77.1 | GET      "/douyin/comment/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&video_id=23477756444560769"
+ilegal comment
+gen ID
+Add comment
+
+2022/10/29 16:59:02 /home/cheng/Desktop/Linux/douyin-fighting/service/comment.go:16
+[3.931ms] [rows:1] INSERT INTO `comments` (`video_id`,`user_id`,`content`,`created_at`,`deleted_at`,`comment_id`) VALUES (23477756444560769,23473621196361089,'2222','2022-10-29 16:59:02.543',NULL,23482635611295105)
+User info by user id
+User id:  23473621196361089
+GetFollowStatus
+[GIN] 2022/10/29 - 16:59:02 | 200 |    6.906229ms |    192.168.77.1 | POST     "/douyin/comment/action/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&video_id=23477756444560769&action_type=1&comment_text=2222"
+ilegal comment
+gen ID
+Add comment
+
+2022/10/29 16:59:05 /home/cheng/Desktop/Linux/douyin-fighting/service/comment.go:16
+[0.664ms] [rows:1] INSERT INTO `comments` (`video_id`,`user_id`,`content`,`created_at`,`deleted_at`,`comment_id`) VALUES (23477756444560769,23473621196361089,'3333','2022-10-29 16:59:05.66',NULL,23482640845786497)
+User info by user id
+User id:  23473621196361089
+GetFollowStatus
+[GIN] 2022/10/29 - 16:59:05 | 200 |    2.424775ms |    192.168.77.1 | POST     "/douyin/comment/action/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&video_id=23477756444560769&action_type=1&comment_text=3333"
+ilegal comment
+gen ID
+Add comment
+
+2022/10/29 16:59:07 /home/cheng/Desktop/Linux/douyin-fighting/service/comment.go:16
+[0.668ms] [rows:1] INSERT INTO `comments` (`video_id`,`user_id`,`content`,`created_at`,`deleted_at`,`comment_id`) VALUES (23477756444560769,23473621196361089,'444','2022-10-29 16:59:07.548',NULL,23482643999903105)
+User info by user id
+User id:  23473621196361089
+GetFollowStatus
+[GIN] 2022/10/29 - 16:59:07 | 200 |    6.019682ms |    192.168.77.1 | POST     "/douyin/comment/action/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&video_id=23477756444560769&action_type=1&comment_text=444"
+
+2022/10/29 16:59:10 /home/cheng/Desktop/Linux/douyin-fighting/service/favorite.go:50
+[3.144ms] [rows:1] INSERT INTO `favorites` (`video_id`,`user_id`,`is_favorite`,`created_at`,`updated_at`,`favorite_id`) VALUES (23477756444560769,23473621196361089,true,'2022-10-29 16:59:10.328','2022-10-29 16:59:10.328',23482648663969153)
+
+2022/10/29 16:59:10 /home/cheng/Desktop/Linux/douyin-fighting/service/favorite.go:60
+[0.570ms] [rows:1] SELECT `author_id` FROM `videos` WHERE video_id = 23477756444560769 LIMIT 1
+[GIN] 2022/10/29 - 16:59:10 | 200 |    4.586192ms |    192.168.77.1 | POST     "/douyin/favorite/action/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&video_id=23477756444560769&action_type=1"
+Video:23473691677445505 : in redis
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474442524970369 : in redis
+Video:23474693730225537 : in redis
+Video:23474522149637505 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 2 11 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 11 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+User db using user id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.427ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000097880 0}
+follower_id
+Video:23476001883311489 : in redis
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.525ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+Video:23477756444560769 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.263ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000097c00 0}
+follower_id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[1.408ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.200ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.337ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:59:28 | 500 |    6.065333ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&user_id=0"
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[4.541ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.887ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.400ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.523ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.186ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc00062e380 0}
+follower_id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.200ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[1.478ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.758ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[1.234ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.246ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc00062ec40 0}
+follower_id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.203ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.364ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.175ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.586ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.259ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc00062f500 0}
+follower_id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.446ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.655ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.197ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.419ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.168ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc00062fdc0 0}
+follower_id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.281ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.659ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.263ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:28 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.729ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:59:28 | 500 |   30.143921ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&user_id=0"
+[GIN] 2022/10/29 - 16:59:28 | 200 |   20.625084ms |    192.168.77.1 | GET      "/static/video/23476001883311489"
+
+2022/10/29 16:59:34 /home/cheng/Desktop/Linux/douyin-fighting/service/comment.go:61
+[0.885ms] [rows:11] SELECT * FROM `comments` WHERE video_id = 23476001883311489 AND `comments`.`deleted_at` IS NULL
+
+2022/10/29 16:59:34 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:104
+[0.481ms] [rows:0] SELECT * FROM `users` WHERE user_id in (0,0,0,0,0,0,0,0,0,0,0)
+[GIN] 2022/10/29 - 16:59:34 | 200 |    2.659809ms |    192.168.77.1 | GET      "/douyin/comment/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&video_id=23476001883311489"
+ilegal comment
+gen ID
+Add comment
+
+2022/10/29 16:59:39 /home/cheng/Desktop/Linux/douyin-fighting/service/comment.go:16
+[1.762ms] [rows:1] INSERT INTO `comments` (`video_id`,`user_id`,`content`,`created_at`,`deleted_at`,`comment_id`) VALUES (23476001883311489,23473621196361089,'11123','2022-10-29 16:59:39.796',NULL,23482698106424705)
+User info by user id
+User id:  23473621196361089
+GetFollowStatus
+[GIN] 2022/10/29 - 16:59:39 | 200 |    5.048859ms |    192.168.77.1 | POST     "/douyin/comment/action/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&video_id=23476001883311489&action_type=1&comment_text=11123"
+Feed ================
+GetFeed 1
+GetFeed 2
+GetFeed 3
+[23477756444560769 23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474693730225537 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+GetFeed 4
+GetFeed 5
+
+2022/10/29 16:59:45 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:104
+[0.440ms] [rows:0] SELECT * FROM `users` WHERE user_id in (0,0,0,0,0,0)
+numVideos:  6
+log: 
+logged
+[GIN] 2022/10/29 - 16:59:45 | 200 |    2.362234ms |    192.168.77.1 | GET      "/douyin/feed/?latest_time=1667087986508&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY"
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474693730225537 : in redis
+Video:23473691677445505 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23476001883311489 : in redis
+Video:23477756444560769 : in redis
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 2 11 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 12 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+User db using user id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.862ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0005d4700 0}
+follower_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[3.862ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc00063d500 0}
+follower_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.575ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[4.161ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.351ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[1.396ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+[GIN] 2022/10/29 - 16:59:46 | 200 |   11.113822ms |    192.168.77.1 | GET      "/static/video/23477756444560769"
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[14.842ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[15.926ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[2.827ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:59:46 | 500 |   29.823936ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&user_id=0"
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[3.259ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.977ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0005d41c0 0}
+follower_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.340ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.628ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.290ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.229ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[6.243ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0005d4e00 0}
+follower_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[1.351ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[1.744ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.729ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[1.748ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.591ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0005d56c0 0}
+follower_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.523ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[1.573ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.472ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.373ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.420ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000961c0 0}
+follower_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.290ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[1.458ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.243ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:46 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.533ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:59:46 | 500 |    85.31554ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&user_id=0"
+User id:  23473621196361089
+Video:23477756444560769 : in redis
+[GIN] 2022/10/29 - 16:59:47 | 200 |     646.733µs |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&user_id=23473621196361089"
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+
+2022/10/29 16:59:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.442ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000096a80 0}
+follower_id
+
+2022/10/29 16:59:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.452ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.654ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.366ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:47 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.575ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:59:47 | 500 |    4.747273ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDMzNCwibmJmIjoxNjY3MDg3OTM0LCJpYXQiOjE2NjcwODc5MzR9.UcDrJ566WU1nGoSuZHwng-N3eq9MstZqffVM7_SRooY&user_id=23473621196361089"
+Feed ================
+GetFeed 1
+GetFeed 2
+GetFeed 3
+[23477756444560769 23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474693730225537 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+GetFeed 4
+GetFeed 5
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:104
+[0.806ms] [rows:0] SELECT * FROM `users` WHERE user_id in (0,0,0,0,0,0)
+numVideos:  6
+log: 
+logged
+[GIN] 2022/10/29 - 16:59:52 | 200 |    2.409948ms |    192.168.77.1 | GET      "/douyin/feed/?latest_time=1667087992593"
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23477756444560769 : in redis
+Video:23474693730225537 : in redis
+Video:23476001883311489 : in redis
+Video:23474522149637505 : in redis
+Video:23474693730225537 : in redis
+Video:23474442524970369 : in redis
+Video:23474522149637505 : in redis
+Video:23473691677445505 : in redis
+Video:23474442524970369 : in redis
+GetVideoListByIDsRedis: later
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 2 11 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 12 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+Video:23473691677445505 : in redis
+Video:23473691677445505 : in redis
+Video:23474442524970369 : in redis
+Video:23473691677445505 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+User db using user id
+Video:23476001883311489 : in redis
+GetVideoListByIDsRedis: later
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 2 11 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 12 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+Video:23477756444560769 : in redis
+User db using user id
+Video:23474522149637505 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.649ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc00063c1c0 0}
+follower_id
+Video:23476001883311489 : in redis
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.684ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000097500 0}
+follower_id
+Video:23477756444560769 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.211ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.238ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000976c0 0}
+follower_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.273ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.222ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[1.539ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.720ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.188ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[1.101ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.502ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.651ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.654ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.476ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.671ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:59:52 | 500 |    8.867251ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=&user_id=0"
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:59:52 | 500 |    9.208208ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=&user_id=0"
+User db using user id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.735ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc00063d180 0}
+follower_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[5.474ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000097880 0}
+follower_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.759ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.948ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[1.956ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.802ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[3.745ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[8.261ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.606ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cca80 0}
+follower_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.785ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.374ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.192ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.736ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.341ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[15.364ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.451ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+result:  &{0xc000168f30 <nil> 0 0xc00063c700 0}
+follower_id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.918ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+User db using user id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.548ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.523ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc00063ca80 0}
+follower_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.530ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.446ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.273ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.210ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.811ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.404ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.295ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cce00 0}
+follower_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.321ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.536ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc00063d500 0}
+follower_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.764ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.530ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.544ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.464ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.724ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.839ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.645ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.586ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000096700 0}
+follower_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.441ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[2.433ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000096540 0}
+follower_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[1.068ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.646ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.476ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.705ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.745ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.333ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:59:52 | 200 |    43.70915ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=&user_id=0"
+
+2022/10/29 16:59:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[2.733ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:59:52 | 200 |   45.306957ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=&user_id=0"
+[GIN] 2022/10/29 - 16:59:52 | 200 |   34.711176ms |    192.168.77.1 | GET      "/static/video/23477756444560769"
+
+2022/10/29 16:59:57 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:29
+[0.723ms] [rows:1] SELECT * FROM `users` WHERE name = '1' LIMIT 1
+[GIN] 2022/10/29 - 16:59:57 | 200 |   58.529642ms |    192.168.77.1 | POST     "/douyin/user/login/?username=1&password=111111"
+User id:  23473621196361089
+[GIN] 2022/10/29 - 16:59:57 | 200 |     618.185µs |    192.168.77.1 | GET      "/douyin/user/?user_id=23473621196361089&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI"
+User id:  23473621196361089
+[GIN] 2022/10/29 - 16:59:58 | 200 |     323.131µs |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI&user_id=23473621196361089"
+Video:23477756444560769 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+
+2022/10/29 16:59:58 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.274ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000976c0 0}
+follower_id
+
+2022/10/29 16:59:58 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.960ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 16:59:58 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.547ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 16:59:58 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.467ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 16:59:58 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.956ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 16:59:58 | 500 |   10.975672ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI&user_id=23473621196361089"
+[GIN] 2022/10/29 - 16:59:58 | 200 |     324.854µs |    192.168.77.1 | GET      "/static/video/23477756444560769"
+
+2022/10/29 17:00:06 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:104
+[0.342ms] [rows:0] SELECT * FROM `users` WHERE user_id in (0,0,0,0,0,0,0,0)
+[GIN] 2022/10/29 - 17:00:06 | 200 |    1.860192ms |    192.168.77.1 | GET      "/douyin/comment/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI&video_id=23477756444560769"
+ilegal comment
+gen ID
+Add comment
+
+2022/10/29 17:00:10 /home/cheng/Desktop/Linux/douyin-fighting/service/comment.go:16
+[1.000ms] [rows:1] INSERT INTO `comments` (`video_id`,`user_id`,`content`,`created_at`,`deleted_at`,`comment_id`) VALUES (23477756444560769,23473621196361089,'222','2022-10-29 17:00:10.009',NULL,23482748790394241)
+User info by user id
+User id:  23473621196361089
+GetFollowStatus
+[GIN] 2022/10/29 - 17:00:10 | 200 |    3.731834ms |    192.168.77.1 | POST     "/douyin/comment/action/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI&video_id=23477756444560769&action_type=1&comment_text=222"
+[GIN] 2022/10/29 - 17:00:15 | 200 |     288.143µs |    192.168.77.1 | POST     "/douyin/favorite/action/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI&video_id=23477756444560769&action_type=1"
+Feed ================
+GetFeed 1
+GetFeed 2
+GetFeed 3
+[23477756444560769 23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474693730225537 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+GetFeed 4
+GetFeed 5
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:104
+[0.365ms] [rows:0] SELECT * FROM `users` WHERE user_id in (0,0,0,0,0,0)
+numVideos:  6
+log: 
+logged
+[GIN] 2022/10/29 - 17:00:47 | 200 |    4.819428ms |    192.168.77.1 | GET      "/douyin/feed/?latest_time=1667088048069&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI"
+Video:23473691677445505 : in redis
+Video:23477756444560769 : in redis
+Video:23474442524970369 : in redis
+Video:23476001883311489 : in redis
+Video:23474522149637505 : in redis
+Video:23474693730225537 : in redis
+Video:23476001883311489 : in redis
+Video:23474522149637505 : in redis
+Video:23477756444560769 : in redis
+GetVideoListByIDsRedis: later
+Video:23474442524970369 : in redis
+User id:  0
+User db using user id
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 2 12 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 12 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+User db using user id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.254ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000140700 0}
+follower_id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.969ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cda40 0}
+follower_id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.272ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.227ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.233ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.876ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.664ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.721ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.275ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.262ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cddc0 0}
+follower_id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.566ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.264ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+GetVideoIDListByUserID
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.319ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.288ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.390ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:00:47 | 500 |   14.484189ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI&user_id=0"
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.239ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000e0700 0}
+follower_id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.258ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.232ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.424ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.362ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.953ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000e0fc0 0}
+follower_id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.316ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.362ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.713ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.993ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.956ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0001416c0 0}
+follower_id
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.646ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+[GIN] 2022/10/29 - 17:00:47 | 200 |    6.057134ms |    192.168.77.1 | GET      "/static/video/23477756444560769"
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.962ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.290ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:47 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[2.189ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:00:47 | 500 |   45.130068ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI&user_id=0"
+Video:23477756444560769 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+
+2022/10/29 17:00:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.468ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000096380 0}
+follower_id
+
+2022/10/29 17:00:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.336ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:135
+[1.220ms] [rows:0] SELECT * FROM `videos` WHERE author_id = 23473621196361089
+User id:  23473621196361089
+[GIN] 2022/10/29 - 17:00:48 | 200 |    1.720464ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI&user_id=23473621196361089"
+
+2022/10/29 17:00:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.495ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:48 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.249ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:48 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.455ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:00:48 | 500 |    4.025625ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDM5NywibmJmIjoxNjY3MDg3OTk3LCJpYXQiOjE2NjcwODc5OTd9.G65dnmGq6U67hatdeEoiF9fH1ETVYVi9944uvbOh5RI&user_id=23473621196361089"
+Feed ================
+GetFeed 1
+GetFeed 2
+GetFeed 3
+[23477756444560769 23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474693730225537 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+GetFeed 4
+GetFeed 5
+
+2022/10/29 17:00:51 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:104
+[0.529ms] [rows:0] SELECT * FROM `users` WHERE user_id in (0,0,0,0,0,0)
+numVideos:  6
+log: 
+logged
+[GIN] 2022/10/29 - 17:00:51 | 200 |    4.834384ms |    192.168.77.1 | GET      "/douyin/feed/?latest_time=1667088052377"
+Video:23473691677445505 : in redis
+Video:23474442524970369 : in redis
+Video:23474522149637505 : in redis
+Video:23476001883311489 : in redis
+Video:23477756444560769 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23477756444560769 : in redis
+Video:23474693730225537 : in redis
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.991ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cc700 0}
+follower_id
+Video:23476001883311489 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23474693730225537 : in redis
+Video:23473691677445505 : in redis
+Video:23473691677445505 : in redis
+Video:23474522149637505 : in redis
+GetVideoListByIDsRedis: later
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 2 12 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 12 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+Video:23474442524970369 : in redis
+User db using user id
+Video:23474442524970369 : in redis
+Video:23474522149637505 : in redis
+Video:23473691677445505 : in redis
+Video:23476001883311489 : in redis
+GetVideoListByIDsRedis: later
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 2 12 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 12 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+User db using user id
+Video:23477756444560769 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.364ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000096a80 0}
+follower_id
+User db using user id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.153ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000968c0 0}
+follower_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.472ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.741ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cca80 0}
+follower_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.240ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[1.320ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.216ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.200ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.296ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[1.650ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:00:52 | 500 |    5.423463ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=&user_id=0"
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.494ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[2.225ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[5.498ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.400ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.264ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[1.789ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.447ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[1.538ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:00:52 | 500 |   10.886624ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=&user_id=0"
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[1.251ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.583ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cdc00 0}
+follower_id
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.502ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+User db using user id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.231ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000976c0 0}
+follower_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.449ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.251ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.186ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.349ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.211ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[6.541ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[2.468ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.994ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000264540 0}
+follower_id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.288ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+User db using user id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.378ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.391ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.495ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000f2000 0}
+follower_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.532ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.866ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.430ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000264e00 0}
+follower_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.394ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.358ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.385ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.406ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.407ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.360ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.547ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.306ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0002656c0 0}
+follower_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.954ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000f28c0 0}
+follower_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.332ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.249ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.212ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.610ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:00:52 | 200 |   26.473624ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=&user_id=0"
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[2.280ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+[GIN] 2022/10/29 - 17:00:52 | 200 |    12.61736ms |    192.168.77.1 | GET      "/static/video/23477756444560769"
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[1.320ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[2.126ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[9.347ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.347ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000f3180 0}
+follower_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.226ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.189ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.181ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:00:52 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[2.164ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:00:52 | 200 |   48.343805ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=&user_id=0"
+
+2022/10/29 17:01:04 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:14
+[0.644ms] [rows:0] SELECT * FROM `users` WHERE name = '2' LIMIT 1
+
+2022/10/29 17:01:04 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:22
+[2.537ms] [rows:1] INSERT INTO `users` (`name`,`password`,`created_at`,`ext_info`,`user_id`) VALUES ('2','$2a$10$sOXx7lkkQeQrWj3tsBnJAeWSW6ni4jyCkZLNhcrXkZd4nlMQ3f4/W','2022-10-29 17:01:04.306',NULL,23482839890677121)
+[GIN] 2022/10/29 - 17:01:04 | 200 |   60.181293ms |    192.168.77.1 | POST     "/douyin/user/register/?username=2&password=222222"
+User id:  23482839890677121
+User db using user id
+
+2022/10/29 17:01:05 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[2.475ms] [rows:1] SELECT * FROM `users` WHERE user_id = 23482839890677121 LIMIT 1
+result:  &{0xc000168f30 <nil> 1 0xc0003cc1c0 0}
+follower_id
+
+2022/10/29 17:01:05 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[1.801ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 23482839890677121 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:05 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[2.367ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 23482839890677121 and is_follow = true
+
+2022/10/29 17:01:05 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[1.548ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 23482839890677121 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:01:05 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[1.811ms] [rows:0] SELECT * FROM `videos` WHERE author_id = 23482839890677121
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+GetFavoriteCountListByVideoIDList  33
+
+2022/10/29 17:01:05 /home/cheng/Desktop/Linux/douyin-fighting/service/follow.go:20
+[0.639ms] [rows:0] SELECT `celebrity_id`,`is_follow` FROM `follows` WHERE follower_id = 23482839890677121
+[GIN] 2022/10/29 - 17:01:05 | 200 |    18.10811ms |    192.168.77.1 | GET      "/douyin/user/?user_id=23482839890677121&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDgyODM5ODkwNjc3MTIxLCJOYW1lIjoiMiIsImV4cCI6MTY2NzE3NDQ2NCwibmJmIjoxNjY3MDg4MDY0LCJpYXQiOjE2NjcwODgwNjR9.2d6nZL-CoL-XtQuL2vNReKFOdR_J5bypLHZy8V6LtMk"
+
+2022/10/29 17:01:05 /home/cheng/Desktop/Linux/douyin-fighting/service/favorite.go:114
+[0.674ms] [rows:0] SELECT `video_id`,`is_favorite` FROM `favorites` WHERE user_id = 23482839890677121
+GetVideoListByIDsRedis: later
+
+2022/10/29 17:01:05 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:135
+[0.772ms] [rows:0] SELECT * FROM `videos` WHERE author_id = 23482839890677121
+[GIN] 2022/10/29 - 17:01:05 | 200 |    1.823998ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDgyODM5ODkwNjc3MTIxLCJOYW1lIjoiMiIsImV4cCI6MTY2NzE3NDQ2NCwibmJmIjoxNjY3MDg4MDY0LCJpYXQiOjE2NjcwODgwNjR9.2d6nZL-CoL-XtQuL2vNReKFOdR_J5bypLHZy8V6LtMk&user_id=23482839890677121"
+User id:  23482839890677121
+[GIN] 2022/10/29 - 17:01:05 | 200 |    1.889731ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDgyODM5ODkwNjc3MTIxLCJOYW1lIjoiMiIsImV4cCI6MTY2NzE3NDQ2NCwibmJmIjoxNjY3MDg4MDY0LCJpYXQiOjE2NjcwODgwNjR9.2d6nZL-CoL-XtQuL2vNReKFOdR_J5bypLHZy8V6LtMk&user_id=23482839890677121"
+[GIN] 2022/10/29 - 17:01:05 | 200 |    1.258632ms |    192.168.77.1 | GET      "/static/video/23477756444560769"
+
+2022/10/29 17:01:17 /home/cheng/Desktop/Linux/douyin-fighting/service/follow.go:58
+[3.456ms] [rows:1] INSERT INTO `follows` (`celebrity_id`,`follower_id`,`is_follow`,`created_at`,`updated_at`,`follow_id`) VALUES (0,23482839890677121,true,'2022-10-29 17:01:17.644','2022-10-29 17:01:17.644',23482862271483265)
+[GIN] 2022/10/29 - 17:01:17 | 200 |    4.148797ms |    192.168.77.1 | POST     "/douyin/relation/action/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDgyODM5ODkwNjc3MTIxLCJOYW1lIjoiMiIsImV4cCI6MTY2NzE3NDQ2NCwibmJmIjoxNjY3MDg4MDY0LCJpYXQiOjE2NjcwODgwNjR9.2d6nZL-CoL-XtQuL2vNReKFOdR_J5bypLHZy8V6LtMk&to_user_id=0&action_type=1"
+User id:  23482839890677121
+GetVideoListByIDsRedis: later
+[GIN] 2022/10/29 - 17:01:22 | 200 |     407.705µs |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDgyODM5ODkwNjc3MTIxLCJOYW1lIjoiMiIsImV4cCI6MTY2NzE3NDQ2NCwibmJmIjoxNjY3MDg4MDY0LCJpYXQiOjE2NjcwODgwNjR9.2d6nZL-CoL-XtQuL2vNReKFOdR_J5bypLHZy8V6LtMk&user_id=23482839890677121"
+[GIN] 2022/10/29 - 17:01:22 | 200 |     654.977µs |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDgyODM5ODkwNjc3MTIxLCJOYW1lIjoiMiIsImV4cCI6MTY2NzE3NDQ2NCwibmJmIjoxNjY3MDg4MDY0LCJpYXQiOjE2NjcwODgwNjR9.2d6nZL-CoL-XtQuL2vNReKFOdR_J5bypLHZy8V6LtMk&user_id=23482839890677121"
+GetVideoListByIDsRedis: later
+User id:  23482839890677121
+[GIN] 2022/10/29 - 17:01:35 | 200 |     581.235µs |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDgyODM5ODkwNjc3MTIxLCJOYW1lIjoiMiIsImV4cCI6MTY2NzE3NDQ2NCwibmJmIjoxNjY3MDg4MDY0LCJpYXQiOjE2NjcwODgwNjR9.2d6nZL-CoL-XtQuL2vNReKFOdR_J5bypLHZy8V6LtMk&user_id=23482839890677121"
+[GIN] 2022/10/29 - 17:01:35 | 200 |     630.719µs |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDgyODM5ODkwNjc3MTIxLCJOYW1lIjoiMiIsImV4cCI6MTY2NzE3NDQ2NCwibmJmIjoxNjY3MDg4MDY0LCJpYXQiOjE2NjcwODgwNjR9.2d6nZL-CoL-XtQuL2vNReKFOdR_J5bypLHZy8V6LtMk&user_id=23482839890677121"
+Feed ================
+GetFeed 1
+GetFeed 2
+GetFeed 3
+[23477756444560769 23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474693730225537 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23473691677445505 : in redis
+GetVideoListByIDsRedis: later
+GetFeed 4
+GetFeed 5
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:104
+[0.302ms] [rows:0] SELECT * FROM `users` WHERE user_id in (0,0,0,0,0,0)
+numVideos:  6
+log: 
+logged
+[GIN] 2022/10/29 - 17:01:38 | 200 |    4.826404ms |    192.168.77.1 | GET      "/douyin/feed/?latest_time=1667088099206"
+Video:23473691677445505 : in redis
+Video:23477756444560769 : in redis
+Video:23474442524970369 : in redis
+Video:23473691677445505 : in redis
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23476001883311489 : in redis
+Video:23474522149637505 : in redis
+Video:23474442524970369 : in redis
+Video:23474693730225537 : in redis
+Video:23474522149637505 : in redis
+Video:23476001883311489 : in redis
+Video:23474693730225537 : in redis
+Video:23477756444560769 : in redis
+Video:23476001883311489 : in redis
+Video:23474522149637505 : in redis
+Video:23474522149637505 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+Video:23474442524970369 : in redis
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.598ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000096380 0}
+follower_id
+Video:23474442524970369 : in redis
+Video:23477756444560769 : in redis
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.464ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.487ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.390ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+GetVideoListByIDsRedis: later
+User id:  0
+Video:23473691677445505 : in redis
+Video:23473691677445505 : in redis
+User db using user id
+GetVideoListByIDsRedis: later
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 2 12 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 12 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.618ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.635ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cd6c0 0}
+follower_id
+User db using user id
+GetVideoListByIDsRedis: later
+len videoList:  &[{23477756444560769 aa 23477756444560769 23477756444560769.jpg 2 12 0 2022-10-29 16:10:34.393 -0700 PDT <nil>} {23476001883311489 aaa 23476001883311489 23476001883311489.jpg 1 12 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {23474693730225537 aa 23474693730225537 23474693730225537.jpg 0 0 0 2022-10-29 15:40:08.863 -0700 PDT <nil>} {23474522149637505 bb 23474522149637505 23474522149637505.jpg 1 2 0 2022-10-29 15:38:26.67 -0700 PDT <nil>} {23474442524970369 a 23474442524970369 23474442524970369.jpg 1 0 0 2022-10-29 15:37:39.208 -0700 PDT <nil>} {23473691677445505 a 23473691677445505 23473691677445505.jpg 1 9 0 2022-10-29 15:30:11.704 -0700 PDT <nil>}]
+User id:  0
+GetVideoIDListByUserID
+User db using user id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.526ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cddc0 0}
+follower_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.980ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cdc00 0}
+follower_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.394ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.345ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.968ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0003cda40 0}
+follower_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.347ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.372ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[2.841ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.675ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[1.425ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[1.629ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[2.241ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[2.240ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.935ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[1.036ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.895ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+[GIN] 2022/10/29 - 17:01:38 | 200 |     854.192µs |    192.168.77.1 | GET      "/static/video/23477756444560769"
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[1.124ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+GetVideoIDListByUserID
+GetVideoIDListByUserID
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[1.011ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[1.071ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:01:38 | 500 |   22.475568ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=&user_id=0"
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.835ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc000096e00 0}
+follower_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.470ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:01:38 | 500 |   25.333445ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=&user_id=0"
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[1.706ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0004b5880 0}
+follower_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[2.747ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.897ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.917ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.466ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.739ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.802ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.472ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.859ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000976c0 0}
+follower_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.342ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.589ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.389ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.500ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+User db using user id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.335ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0000f4000 0}
+follower_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.581ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.667ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.428ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+GetVideoIDListByUserID
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.608ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.264ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0004d2000 0}
+follower_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.223ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.478ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.222ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.246ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.211ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0004d28c0 0}
+follower_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.221ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.282ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.292ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.223ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:01:38 | 200 |   47.639432ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=&user_id=0"
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+User id:  0
+User db using user id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.176ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0004d3180 0}
+follower_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.166ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.377ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[0.382ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:01:38 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.284ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:01:38 | 200 |   52.793075ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=&user_id=0"
+
+2022/10/29 17:01:44 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:29
+[0.602ms] [rows:1] SELECT * FROM `users` WHERE name = '1' LIMIT 1
+[GIN] 2022/10/29 - 17:01:44 | 200 |   56.022364ms |    192.168.77.1 | POST     "/douyin/user/login/?username=1&password=111111"
+User id:  23473621196361089
+[GIN] 2022/10/29 - 17:01:44 | 200 |     577.106µs |    192.168.77.1 | GET      "/douyin/user/?user_id=23473621196361089&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDUwNCwibmJmIjoxNjY3MDg4MTA0LCJpYXQiOjE2NjcwODgxMDR9._1xJEDhQ1Kg4v5ShY7_tS47FgLCiz-_1rQ-asjqAs7Q"
+User id:  23473621196361089
+Video:23477756444560769 : in redis
+GetVideoListByIDsRedis: later
+User id:  0
+User db using user id
+
+2022/10/29 17:01:44 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:54
+[0.868ms] [rows:0] SELECT * FROM `users` WHERE user_id = 0 LIMIT 1
+result:  &{0xc000168f30 <nil> 0 0xc0004d3a40 0}
+follower_id
+
+2022/10/29 17:01:44 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:59
+[0.902ms] [rows:1] SELECT count(*) FROM `follows` WHERE follower_id = 0 and is_follow = true
+celebrity_id
+
+2022/10/29 17:01:44 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:63
+[0.966ms] [rows:1] SELECT count(*) FROM `follows` WHERE celebrity_id = 0 and is_follow = true
+[GIN] 2022/10/29 - 17:01:44 | 200 |    6.254079ms |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDUwNCwibmJmIjoxNjY3MDg4MTA0LCJpYXQiOjE2NjcwODgxMDR9._1xJEDhQ1Kg4v5ShY7_tS47FgLCiz-_1rQ-asjqAs7Q&user_id=23473621196361089"
+
+2022/10/29 17:01:44 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:66
+[2.968ms] [rows:1] SELECT count(*) FROM `favorites` WHERE user_id = 0 and is_favorite = true
+publishvideoidlist
+
+2022/10/29 17:01:44 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:321
+[0.844ms] [rows:6] SELECT * FROM `videos` WHERE author_id = 0
+GetVideoIDListByUserID
+GetFavoriteCountListByVideoIDList
+GetFavoriteCountListByVideoIDList   111
+[GIN] 2022/10/29 - 17:01:44 | 500 |   17.738838ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDUwNCwibmJmIjoxNjY3MDg4MTA0LCJpYXQiOjE2NjcwODgxMDR9._1xJEDhQ1Kg4v5ShY7_tS47FgLCiz-_1rQ-asjqAs7Q&user_id=23473621196361089"
+[GIN] 2022/10/29 - 17:01:44 | 200 |     552.678µs |    192.168.77.1 | GET      "/static/video/23477756444560769"
+[GIN] 2022/10/29 - 17:02:17 | 200 |     352.159µs |    192.168.77.1 | GET      "/douyin/relation/follow/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDUwNCwibmJmIjoxNjY3MDg4MTA0LCJpYXQiOjE2NjcwODgxMDR9._1xJEDhQ1Kg4v5ShY7_tS47FgLCiz-_1rQ-asjqAs7Q&user_id=23473621196361089"
+
+2022/10/29 17:02:19 /home/cheng/Desktop/Linux/douyin-fighting/service/follow.go:148
+[0.490ms] [rows:0] SELECT * FROM `follows` WHERE celebrity_id = 23473621196361089 and is_follow = true
+[GIN] 2022/10/29 - 17:02:19 | 200 |    1.048405ms |    192.168.77.1 | GET      "/douyin/relation/follower/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3NDUwNCwibmJmIjoxNjY3MDg4MTA0LCJpYXQiOjE2NjcwODgxMDR9._1xJEDhQ1Kg4v5ShY7_tS47FgLCiz-_1rQ-asjqAs7Q&user_id=23473621196361089"

@@ -1,0 +1,233 @@
+Global
+Viper
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.569ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.997ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:54
+[1.009ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'douyin' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.274ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.470ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:148
+[0.522ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:166
+[1.215ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'douyin' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.301ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[1.143ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:55
+[0.918ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'douyin' AND table_name = 'videos' AND table_type = 'BASE TABLE'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.209ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.450ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:148
+[0.197ms] [rows:-] SELECT * FROM `videos` LIMIT 1
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:166
+[0.608ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'douyin' AND table_name = 'videos' ORDER BY ORDINAL_POSITION
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.154ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.475ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:55
+[0.396ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'videos' AND index_name = 'idx_videos_author_id'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.437ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[1.384ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:55
+[0.403ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'videos' AND index_name = 'idx_videos_created_at'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.150ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[1.023ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:56
+[0.352ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'douyin' AND table_name = 'favorites' AND table_type = 'BASE TABLE'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.122ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.376ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:148
+[0.914ms] [rows:-] SELECT * FROM `favorites` LIMIT 1
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:166
+[1.037ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'douyin' AND table_name = 'favorites' ORDER BY ORDINAL_POSITION
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.140ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.481ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:56
+[0.395ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'favorites' AND index_name = 'idx_01'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[1.045ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.366ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:56
+[0.839ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'favorites' AND index_name = 'idx_02'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.146ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[1.056ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:57
+[0.186ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'douyin' AND table_name = 'comments' AND table_type = 'BASE TABLE'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.061ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.267ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:148
+[1.277ms] [rows:-] SELECT * FROM `comments` LIMIT 1
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:166
+[1.185ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'douyin' AND table_name = 'comments' ORDER BY ORDINAL_POSITION
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.217ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.263ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:57
+[0.206ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'comments' AND index_name = 'video_user'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.068ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.429ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:58
+[0.284ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'douyin' AND table_name = 'follows' AND table_type = 'BASE TABLE'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.061ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[1.146ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:148
+[0.911ms] [rows:-] SELECT * FROM `follows` LIMIT 1
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:166
+[0.457ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale , datetime_precision FROM information_schema.columns WHERE table_schema = 'douyin' AND table_name = 'follows' ORDER BY ORDINAL_POSITION
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[0.069ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.625ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:58
+[0.190ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'follows' AND index_name = 'idx_01'
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:228
+[3.850ms] [rows:-] SELECT DATABASE()
+
+2022/10/29 15:55:07 /data/go/pkg/mod/gorm.io/driver/mysql@v1.3.3/migrator.go:231
+[0.700ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'douyin%' ORDER BY SCHEMA_NAME='douyin' DESC limit 1
+
+2022/10/29 15:55:07 /home/cheng/Desktop/Linux/douyin-fighting/initialize/mysql.go:58
+[0.435ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'douyin' AND table_name = 'follows' AND index_name = 'idx_02'
+MySQL
+Redis
+1111111111111111111
+0.0.0.0:8080GetVideoListByIDsRedis: later
+[GIN] 2022/10/29 - 15:55:12 | 200 |    1.197599ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3MDM3NiwibmJmIjoxNjY3MDgzOTc2LCJpYXQiOjE2NjcwODM5NzZ9.6ENgvIUxDXJzIig2kXXzWf-NPVtKiheZC-q_rMEB-rA&user_id=23473621196361089"
+[GIN] 2022/10/29 - 15:55:12 | 200 |     805.665µs |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3MDM3NiwibmJmIjoxNjY3MDgzOTc2LCJpYXQiOjE2NjcwODM5NzZ9.6ENgvIUxDXJzIig2kXXzWf-NPVtKiheZC-q_rMEB-rA&user_id=23473621196361089"
+Feed ================
+GetFeed 1
+GetFeed 2
+GetFeed 3
+[23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+Video:23476001883311489 : in redis
+GetVideoListByIDsRedis: later
+
+2022/10/29 15:55:15 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:268
+[0.852ms] [rows:4] SELECT * FROM `videos` WHERE video_id in (23474693730225537,23474522149637505,23474442524970369,23473691677445505)
+result:  &{0xc0000f62d0 <nil> 4 0xc00046afc0 0} 
+ result error:  <nil>
+
+2022/10/29 15:55:15 /home/cheng/Desktop/Linux/douyin-fighting/service/comment.go:209
+[2.080ms] [rows:0] SELECT `video_id`,COUNT(video_id) as comment_count FROM `comments` WHERE video_id in (23474693730225537,23474522149637505,23474442524970369,23473691677445505) AND `comments`.`deleted_at` IS NULL GROUP BY `video_id`
+
+2022/10/29 15:55:15 /home/cheng/Desktop/Linux/douyin-fighting/service/favorite.go:178
+[0.435ms] [rows:0] SELECT `video_id`,COUNT(video_id) as favorite_count FROM `favorites` WHERE video_id in (23474693730225537,23474522149637505,23474442524970369,23473691677445505) and is_favorite = true GROUP BY `video_id`
+GetVideoListByIDsSql: 
+GetVideoListByIDsRedis:  &[{23476001883311489 aaa 23476001883311489 23476001883311489.jpg 0 0 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {0    0 0 0 0001-01-01 00:00:00 +0000 UTC <nil>} {0    0 0 0 0001-01-01 00:00:00 +0000 UTC <nil>} {0    0 0 0 0001-01-01 00:00:00 +0000 UTC <nil>} {0    0 0 0 0001-01-01 00:00:00 +0000 UTC <nil>}]  
+ [23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+numVideos:  0
+[GIN] 2022/10/29 - 15:55:15 | 500 |    6.097433ms |    192.168.77.1 | GET      "/douyin/feed/?latest_time=1667084115934"
+
+2022/10/29 15:55:26 /home/cheng/Desktop/Linux/douyin-fighting/service/user.go:28
+[1.239ms] [rows:1] SELECT * FROM `users` WHERE name = '1' LIMIT 1
+[GIN] 2022/10/29 - 15:55:26 | 200 |   57.630861ms |    192.168.77.1 | POST     "/douyin/user/login/?username=1&password=111111"
+[GIN] 2022/10/29 - 15:55:26 | 200 |     237.884µs |    192.168.77.1 | GET      "/douyin/user/?user_id=23473621196361089&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3MDUyNiwibmJmIjoxNjY3MDg0MTI2LCJpYXQiOjE2NjcwODQxMjZ9.nraqzPXUP3A6LV8vHw9S6gsIaH9HBnssJt9WICfz5Ww"
+[GIN] 2022/10/29 - 15:55:26 | 200 |     839.116µs |    192.168.77.1 | GET      "/douyin/publish/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3MDUyNiwibmJmIjoxNjY3MDg0MTI2LCJpYXQiOjE2NjcwODQxMjZ9.nraqzPXUP3A6LV8vHw9S6gsIaH9HBnssJt9WICfz5Ww&user_id=23473621196361089"
+GetVideoListByIDsRedis: later
+[GIN] 2022/10/29 - 15:55:26 | 200 |    1.444012ms |    192.168.77.1 | GET      "/douyin/favorite/list/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3MDUyNiwibmJmIjoxNjY3MDg0MTI2LCJpYXQiOjE2NjcwODQxMjZ9.nraqzPXUP3A6LV8vHw9S6gsIaH9HBnssJt9WICfz5Ww&user_id=23473621196361089"
+Feed ================
+GetFeed 1
+GetFeed 2
+numVideos:  0
+GetFeed 1
+GetFeed 2
+GetFeed 3
+[23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+Video:23476001883311489 : in redis
+GetVideoListByIDsRedis: later
+
+2022/10/29 15:55:36 /home/cheng/Desktop/Linux/douyin-fighting/service/video.go:268
+[0.652ms] [rows:4] SELECT * FROM `videos` WHERE video_id in (23474693730225537,23474522149637505,23474442524970369,23473691677445505)
+result:  &{0xc0000f62d0 <nil> 4 0xc000476000 0} 
+ result error:  <nil>
+
+2022/10/29 15:55:36 /home/cheng/Desktop/Linux/douyin-fighting/service/comment.go:209
+[0.549ms] [rows:0] SELECT `video_id`,COUNT(video_id) as comment_count FROM `comments` WHERE video_id in (23474693730225537,23474522149637505,23474442524970369,23473691677445505) AND `comments`.`deleted_at` IS NULL GROUP BY `video_id`
+
+2022/10/29 15:55:36 /home/cheng/Desktop/Linux/douyin-fighting/service/favorite.go:178
+[1.357ms] [rows:0] SELECT `video_id`,COUNT(video_id) as favorite_count FROM `favorites` WHERE video_id in (23474693730225537,23474522149637505,23474442524970369,23473691677445505) and is_favorite = true GROUP BY `video_id`
+GetVideoListByIDsSql: 
+GetVideoListByIDsRedis:  &[{23476001883311489 aaa 23476001883311489 23476001883311489.jpg 0 0 0 2022-10-29 15:53:08.697 -0700 PDT <nil>} {0    0 0 0 0001-01-01 00:00:00 +0000 UTC <nil>} {0    0 0 0 0001-01-01 00:00:00 +0000 UTC <nil>} {0    0 0 0 0001-01-01 00:00:00 +0000 UTC <nil>} {0    0 0 0 0001-01-01 00:00:00 +0000 UTC <nil>}]  
+ [23476001883311489 23474693730225537 23474522149637505 23474442524970369 23473691677445505]
+numVideos:  0
+[GIN] 2022/10/29 - 15:55:36 | 200 |    4.226199ms |    192.168.77.1 | GET      "/douyin/feed/?latest_time=0&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySUQiOjIzNDczNjIxMTk2MzYxMDg5LCJOYW1lIjoiMSIsImV4cCI6MTY2NzE3MDUyNiwibmJmIjoxNjY3MDg0MTI2LCJpYXQiOjE2NjcwODQxMjZ9.nraqzPXUP3A6LV8vHw9S6gsIaH9HBnssJt9WICfz5Ww"
